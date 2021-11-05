@@ -13,7 +13,7 @@ for(var i = 0; i < timeOfday.length; i++) {
 
     if (parseInt(timeOfday[i]) > currentTime) {
       $("#" + timeOfday[i]).attr("style", "background-color: light blue");
-
+console.log("testing123")
 
     }
     else if (parseInt(timeOfday[i]) < currentTime) {
